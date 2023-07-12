@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+#dog {
+  background-color: bisque;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 180px;
+  margin-bottom: 20px;
+}
+#dog h2 {
+  padding-top: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+#dog p {
+  color: gray;
+}
+#dog .blog {
+  color: red;
+}
+
+#cardss {
+  background-color: whitesmoke;
+  width: 95%;
+  padding-left: 40px;
+}
+#cardss .pap {
+  position: relative;
+  margin-bottom: 150px;
+}
+#cardss .pap img {
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+#cardss .pap img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#cardss .rowa {
+  padding-bottom: 40px;
+}
+#cardss .read {
+  border-radius: 20px;
+  box-shadow: 3px solid white;
+  background-color: white;
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  padding-bottom: 30px;
+  width: 86%;
+}
+#cardss .read p {
+  color: gray;
+}
+#cardss .read h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+#cardss .read a {
+  text-decoration: none;
+  border: 2px solid red;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  color: red;
+  transition: 0.3s ease-in-out;
+}
+#cardss .read a:hover {
+  background-color: red;
+  color: white;
+}
+
+#buttona {
+  position: relative;
+}
+#buttona a {
+  text-decoration: none;
+  padding: 8px 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  color: white;
+  background-color: red;
+  transition: 0.3s ease-in-out;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+#buttona a:hover {
+  background-color: orange;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #dog {
+    background-color: white;
+    background-image: url(https://bw-petito-demo3.bzotech.com/wp-content/uploads/2023/05/Group-8283-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 260px;
+  }
+  #dog h2 {
+    padding-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+  }
+  #dog p {
+    color: gray;
+  }
+  #dog .blog {
+    color: red;
+  }
+  #cardss {
+    background-color: whitesmoke;
+    width: 95%;
+    padding-left: 40px;
+  }
+  #cardss .pap {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  #cardss .pap img {
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  #cardss .pap img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  #cardss .rowa {
+    padding-bottom: 40px;
+  }
+  #cardss .read {
+    border-radius: 20px;
+    box-shadow: 3px solid white;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    padding-bottom: 30px;
+  }
+  #cardss .read p {
+    color: gray;
+  }
+  #cardss .read h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+  }
+  #cardss .read a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    color: red;
+    transition: 0.3s ease-in-out;
+  }
+  #cardss .read a:hover {
+    background-color: red;
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
